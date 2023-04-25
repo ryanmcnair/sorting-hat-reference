@@ -1,3 +1,36 @@
 body {
     background-color: cadetblue;
 }
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-img-top-hufflepuff {
+    height: 50px;
+    width: 100%;
+    background-color: maroon;
+}
+
+.card-img-top-slytherin {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+.card-img-top-ravenclaw {
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+}
+
+.card-img-top-gryffindor {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
