@@ -11,6 +11,11 @@ body {
     margin-bottom: 10px;
 }
 
+#filterButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .card-img-top-hufflepuff {
     height: 50px;
     width: 100%;
@@ -33,4 +38,10 @@ body {
     height: 50px;
     width: 100%;
     background-color: yellow;
+}
+
+.card-img-top-expelled {
+    height: 50px;
+    width: 100%;
+    background-color: black;
 }
