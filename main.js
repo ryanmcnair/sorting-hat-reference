@@ -81,7 +81,7 @@ const filterActions = () => {
 }
 
 const studentsOnDom = (arr) => {
-  let domString = "<h1>First year's</h1>";
+  let domString = "";
   for (student of arr) {
     domString += `
         <div class="card" style="width: 18rem;">
@@ -97,7 +97,7 @@ const studentsOnDom = (arr) => {
 };
 
 const expelledOnDom = (arr) => {
-  let domString = "<h1>Voldemort's army</h1>";
+  let domString = "";
   for (student of arr) {
     domString += `
         <div class="card" style="width: 18rem;">
@@ -132,7 +132,7 @@ expelButton.addEventListener('click', (e) => {
 
 const renderModal = () => {
    const modal = `
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTitle">
+        <button id="modalButton" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTitle">
         Add new student
         </button>
 
