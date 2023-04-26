@@ -8,7 +8,21 @@ body {
 }
 
 .card {
-    margin-bottom: 10px;
+    margin: 10px;
+}
+
+#students {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#evilStudents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #filterButtons {

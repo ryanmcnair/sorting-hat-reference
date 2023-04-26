@@ -81,7 +81,7 @@ const filterActions = () => {
 }
 
 const studentsOnDom = (arr) => {
-  let domString = "<h1>First year's</h1>";
+  let domString = "";
   for (student of arr) {
     domString += `
         <div class="card" style="width: 18rem;">
@@ -97,7 +97,7 @@ const studentsOnDom = (arr) => {
 };
 
 const expelledOnDom = (arr) => {
-  let domString = "<h1>Voldemort's army</h1>";
+  let domString = "";
   for (student of arr) {
     domString += `
         <div class="card" style="width: 18rem;">
