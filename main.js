@@ -132,7 +132,7 @@ expelButton.addEventListener('click', (e) => {
 
 const renderModal = () => {
    const modal = `
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTitle">
+        <button id="modalButton" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTitle">
         Add new student
         </button>
 
